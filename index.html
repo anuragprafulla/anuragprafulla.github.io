@@ -1,9 +1,89 @@
 <! doctype html>
-<html>
+<html lang = 'en'>
     <head>
-        <h1> Hola Amigos! </h1>
-    </head>
+        <meta charset = 'utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  
+        <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+        <link rel='stylesheet' type='text/css' href='css/style.css'>
+        <script src='js/bootstrap.min.js'></script>
+        <script src="js/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400:900:900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300" rel="stylesheet">
+         <script>
+            var num = 30; //number of pixels before modifying styles
+            $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > num) {
+            $('.menu_bar').addClass('fixed');
+            } else {
+            $('.menu_bar').removeClass('fixed');
+            }
+            });
+        </script>
+    </head> 
     <body>
+        <div class='jumbotron home'>
+            <div class='container'>
+                <div class='menu_bar'>                                    
+                        <div class='menu_items'>
+                            <a href=''>
+                                 <div class='btn'>
+                                     HOME
+                                 </div>
+                            </a>
+                            <a href='/about'>
+                                 <div class='btn'>
+                                     ABOUT
+                                 </div>
+                            </a>
+                            <a href='/blog'>
+                                 <div class='btn'>
+                                     BLOG 
+                                 </div>
+                            </a>
+                            <a href='/contact'>
+                                <div class='btn'>
+                                    CONTACT
+                                </div>
+                            </a>
+                        </div>
+                </div>
+                <div class='welcome_block'>
+                    <div class='row'>
+                        <div class='col-lg-2 col-md-2 col-lg-offset-5 col-md-offset-5'>
+                            <div class='welcome_text'><center>Hello!</center></div> 
+                        </div>
+                        <div class='col-lg-8 col-md-6 col-md-offset-3 col-lg-offset-2'>
+                            <div class='welcome_text'><center>I am Prafulla Anurag <center></div>
+                        </div>
+                        <div class='col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2'>
+                            <hr>
+                        </div>
+                        <div class='col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2'>
+                            <div class='click_here'><center>I am an Electrical Engineering sophomore at IIT Roorkee</center></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='jumbotron about'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-lg-4 col-lg-offset-4 about_me_head'>
+                        <center>About Me</center>
+                    </div>
+                    <div class='col-lg-8 col-lg-offset-2 about_me_text'>
+                        <p align='center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+                    </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+ 
         <h2> Site is under construction.</h2>
     </body>
 </html>
