@@ -71,7 +71,7 @@ hr {
     width: 100%;
     height: 50px;
     display: block;
-    margin-top: -20px;
+    margin-top: -40px;
     margin-left: -75px;
     
 }
@@ -138,7 +138,7 @@ a:hover
     -o-background-size: cover;
     background-size: cover;
 }
-.about_me_text
+.about_me_text 
 {
     font-family: 'Open Sans Condensed', sans-serif;
     color: #3c2e27;
@@ -147,12 +147,53 @@ a:hover
   
   
 }
-.about_me_head
+.about_me_head 
 {
     font-family: 'Lobster', sans-serif;
     color: #3c2e27;
-    font-size: 40;
+    font-size: 40px;
+}
+.resume_btn
+{
+    margin-top:5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    background-color:#3c2e27;
+    height: 40px;
+    width: 90px;
+    border-radius:3px;
+    padding-top: 10px; 
+}
+.projects{
+    background-color: #fff;
+    width: 100%;
+    height: 40%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.projects_head 
+{
+    font-family: 'Lobster', sans-serif;
+    color: #3c2e27;
+    font-size: 40px;
 }
 
-
-
+.project
+{
+    margin-right: 20px;
+    background-color: #3c2e27;
+    height: 100px;
+    
+}
+ 
+.project_div
+{
+    margin-left:12.5%;
+    margin-top: 15px;
+}
