@@ -26,8 +26,26 @@
     font-size: 30px;
     font-weight: 400;
 }
+.menu_name
+{
+   font-family: 'Devonshire', sans-serif;
+   font-size: 30px;
+   color: white ;  
+   opacity: 0;
+   margin-left: 30px;
+   margin-top: 5px;
+   width: 20%;
+   float:left;
+}
+a
+{
+    color:white;
+}
 
-
+.show_name
+{
+   opacity: 1.5;
+}
 .welcome_block
 {
     margin-top:12%;
@@ -168,10 +186,9 @@ a:hover
 .projects{
     background-color: #fff;
     width: 100%;
-    height: 40%;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 1;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -187,8 +204,9 @@ a:hover
 .project
 {
     margin-right: 20px;
-    background-color: #3c2e27;
-    height: 100px;
+    background-color: #9d7e62;
+    height: 400px;
+    z-index: 1;
     
 }
  
@@ -197,3 +215,26 @@ a:hover
     margin-left:12.5%;
     margin-top: 15px;
 }
+ 
+.blogs_head
+{
+    font-family: 'Lobster', sans-serif;
+    color: #3c2e27;
+    font-size: 40px;
+}   
+.blogs {
+    background-color: #fff; 
+    margin:auto;
+    position: absolute;
+    margin-top: -30px;
+    width: 90%;
+    height: 50%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.
