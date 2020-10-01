@@ -76,3 +76,13 @@ html, body {
     display: table;
     margin: auto;
 }
+
+.row-page-header {
+    margin-top: 2*$gutter;
+}
+
+.page-header {
+    font-family: $defaultFont;
+    font-size: $fontSizeSmall;
+    color: $fontColor
+}
