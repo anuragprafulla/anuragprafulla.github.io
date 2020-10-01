@@ -1,14 +1,19 @@
 @import "reset";
 
+@import "./bootstrap/functions";
+@import "./bootstrap/variables";
+@import "./bootstrap/mixins";
+@import "./bootstrap/transitions";
+
 @import "variables";
 
 @import "small-default";
 
 
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 768px) {
     @import "medium";
 }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 992px) {
     @import "large";
 }

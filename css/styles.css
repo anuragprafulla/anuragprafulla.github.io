@@ -85,3 +85,102 @@ hr {
 
 input, select {
   vertical-align: middle; }
+
+.fade {
+  transition: opacity 0.15s linear; }
+  @media (prefers-reduced-motion: reduce) {
+    .fade {
+      transition: none; } }
+  .fade:not(.show) {
+    opacity: 0; }
+
+.collapse:not(.show) {
+  display: none; }
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: width 0.35s ease; }
+  @media (prefers-reduced-motion: reduce) {
+    .collapsing {
+      transition: none; } }
+
+html, body {
+  height: 100%;
+  background-color: #fff; }
+
+.h-90 {
+  height: 90% !important; }
+
+.navbar {
+  padding: 10 10 0 10; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/hamburger.png");
+  width: 28px;
+  height: 28px; }
+
+.navbar-light .navbar-toggler {
+  color: #fff;
+  border-color: #fff; }
+
+.navbar-nav {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 0.9em; }
+
+.logo-text {
+  margin-top: 5px; }
+
+.navbar-toggler {
+  padding: 0; }
+
+.font-main-large {
+  color: #333;
+  font-size: 2.25em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center; }
+
+.font-main-medium {
+  margin-top: 10px;
+  color: #333;
+  font-size: 2.25em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center; }
+
+.font-main-small {
+  margin-top: 10px;
+  margin-left: 5px;
+  color: #333;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.3;
+  text-align: center; }
+
+.col-mouse {
+  padding: 0; }
+
+.mouse-logo-img {
+  position: relative;
+  margin: auto;
+  height: 25px; }
+
+.centerBlock {
+  display: table;
+  margin: auto; }
+
+@media only screen and (min-width: 768px) {
+  .heading-watermark {
+    font-size: 10em;
+    opacity: 0.4; }
+
+  .navbar-nav {
+    flex-flow: row nowrap; }
+
+  .navbar {
+    flex-flow: row nowrap;
+    display: inline-flex; } }
