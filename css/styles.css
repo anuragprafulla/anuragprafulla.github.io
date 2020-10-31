@@ -179,16 +179,38 @@ html, body {
 .page-header {
   font-family: "Roboto", sans-serif;
   font-size: 1.8em;
-  color: #333; }
+  color: #333;
+  margin-bottom: 50px; }
 
-@media only screen and (min-width: 768px) {
-  .heading-watermark {
-    font-size: 10em;
-    opacity: 0.4; }
+.work-item {
+  margin-bottom: 40px; }
 
-  .navbar-nav {
-    flex-flow: row nowrap; }
+.work-item-logo {
+  height: 60px; }
 
-  .navbar {
-    flex-flow: row nowrap;
-    display: inline-flex; } }
+.work-item-heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  color: #3136AC;
+  font-weight: 500;
+  margin-top: 20px; }
+
+.work-item-subheading {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #333;
+  font-weight: 300;
+  margin-top: 10px; }
+
+.work-item-body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #333;
+  font-weight: 300;
+  margin-top: 10px;
+  line-height: 1.3; }
+
+.read-more-btn {
+  background-color: #3136AC;
+  color: #fff;
+  margin-top: 10px; }
