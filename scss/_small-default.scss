@@ -126,3 +126,52 @@ html, body {
     color: $backgroundColor;
     margin-top:1*$gutter;
 }
+
+.contact-text .contact-email{
+    font-family: $defaultFont;
+    color: $fontColor;
+    font-size: $fontSizeMedium;
+    font-weight: $normalWeight;
+}
+
+.contact-email {
+    font-weight: $boldWeight;
+    margin-top: 0.5*$gutter;
+}
+
+.contact-social-media {
+    margin-top: 4*$gutter;
+    line-height: 1.3;
+}
+
+.contact-social-media-detail {
+    margin-top: 0.5*$gutter;
+}
+
+.contact-social-media-logo {
+    height : 16px;
+    display: inline;
+}
+
+.contact-social-media-text {
+    width: auto;
+    display: inline;
+}
+
+.contact-details-head {
+    margin-top: 5*$gutter;
+    font-family: $defaultFont;
+    color: $fontColor;
+    font-size: $fontSizeMedium;
+    font-weight: $boldWeight;
+}
+
+.contact-details-body {
+    margin-top: 2*$gutter;
+    line-height: 1.3;
+    font-family: $defaultFont;
+    color: $fontColor;
+    font-size: $fontSizeMedium;
+    font-weight: $normalWeight;
+}
+

@@ -214,3 +214,43 @@ html, body {
   background-color: #3136AC;
   color: #fff;
   margin-top: 10px; }
+
+.contact-text .contact-email {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 1.2em;
+  font-weight: 300; }
+
+.contact-email {
+  font-weight: 500;
+  margin-top: 5px; }
+
+.contact-social-media {
+  margin-top: 40px;
+  line-height: 1.3; }
+
+.contact-social-media-detail {
+  margin-top: 5px; }
+
+.contact-social-media-logo {
+  height: 16px;
+  display: inline; }
+
+.contact-social-media-text {
+  width: auto;
+  display: inline; }
+
+.contact-details-head {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 1.2em;
+  font-weight: 500; }
+
+.contact-details-body {
+  margin-top: 20px;
+  line-height: 1.3;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 1.2em;
+  font-weight: 300; }
